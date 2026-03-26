@@ -1,67 +1,125 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Segurança da Informação</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Segurança da Informação</h1>
+      <p>
+        A segurança da informação é essencial para proteger dados contra acessos
+        não autorizados, garantindo confidencialidade, integridade e
+        disponibilidade.
+      </p>
+    </header>
 
-<header>
-    <h1>Segurança da Informação</h1>
-    <p>A segurança da informação é essencial para proteger dados contra acessos não autorizados, garantindo confidencialidade, integridade e disponibilidade.</p>
-</header>
-
-<nav>
-    <ul>
+    <nav>
+      <ul>
         <li>Página inicial</li>
         <li>Criptografia</li>
         <li>Ameaças</li>
         <li>Boas práticas</li>
         <li>Redes seguras</li>
-    </ul>
-</nav>
+      </ul>
+    </nav>
 
-<main>
+    <main>
+      <h2>O que é Segurança da Informação?</h2>
+      <p>
+        É o conjunto de práticas e tecnologias usadas para proteger informações
+        contra acessos indevidos, vazamentos e ataques.
+      </p>
 
-    <h2>O que é Segurança da Informação?</h2>
-    <p>É o conjunto de práticas e tecnologias usadas para proteger informações contra acessos indevidos, vazamentos e ataques.</p>
-
-    <h2>Principais Ameaças</h2>
-    <ul>
+      <h2>Principais Ameaças</h2>
+      <ul>
         <li>Vírus</li>
         <li>Phishing</li>
         <li>Malware</li>
         <li>Ransomware</li>
-    </ul>
+      </ul>
 
-    <h2>Tabela de Tipos de Ataques</h2>
-    <table border="1">
-        <caption>Tipos de ataques comuns</caption>
+      <h2>Tabela de Tipos de Ataques</h2>
+      <table>
+        <caption>
+          Tipos de ataques comuns
+        </caption>
         <thead>
-            <tr>
-                <th>Ataque</th>
-                <th>Descrição</th>
-            </tr>
+          <tr>
+            <th>Ataque</th>
+            <th>Descrição</th>
+          </tr>
         </thead>
         <tbody>
-            <tr>
-                <td>Phishing</td>
-                <td>Tentativa de enganar o usuário para roubar dados</td>
-            </tr>
-            <tr>
-                <td>Malware</td>
-                <td>Software malicioso que prejudica o sistema</td>
-            </tr>
+          <tr>
+            <td>Phishing</td>
+            <td>Tentativa de enganar o usuário para roubar dados</td>
+          </tr>
+          <tr>
+            <td>Malware</td>
+            <td>Software malicioso que prejudica o sistema</td>
+          </tr>
         </tbody>
         <tfoot>
-            <tr>
-                <td colspan="2">Fonte: Estudo básico de segurança</td>
-            </tr>
+          <tr>
+            <td colspan="2">Fonte: Estudo básico de segurança</td>
+          </tr>
         </tfoot>
-    </table>
+      </table>
 
-    
-</body>
+      <h2>Imagens</h2>
+      <img
+        src="img/img_segurança.png"
+        alt="Segurança da Informação"
+        width="300"
+      />
+
+      <a
+        href="https://www.ev.org.br/cursos/seguranca-em-tecnologia-da-informacao"
+      >
+        <img
+          src="img/img_segurança-link.png"
+          alt="Link para site de segurança"
+          width="300"
+        />
+      </a>
+
+      <h2>Formulário de Contato</h2>
+      <form>
+        <fieldset>
+          <legend>Cadastro</legend>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" />
+
+          <label for="telefone">Telefone:</label>
+          <input type="tel" id="telefone" />
+
+          <label for="idade">Idade:</label>
+          <input type="number" id="idade" />
+
+          <label for="data">Data:</label>
+          <input type="date" id="data" />
+
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem"></textarea>
+        </fieldset>
+      </form>
+
+      <h2>Vídeo sobre Segurança</h2>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/KvPtIl-Gz2E"
+        title="Vídeo sobre segurança da informação"
+        allowfullscreen
+      ></iframe>
+    </main>
+
+    <footer>
+      <p>Desenvolvido por Erick Machado</p>
+    </footer>
+  </body>
 </html>

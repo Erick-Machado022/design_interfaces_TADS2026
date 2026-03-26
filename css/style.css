@@ -1,0 +1,32 @@
+/* Cor 1 - Títulos */
+h1, h2 {
+    color: blue;
+}
+
+/* Cor 2 - Textos */
+p, li, label, table {
+    color: black;
+}
+
+/* Cor 3 - Destaques */
+nav ul li {
+    color: red;
+}
+
+table tbody tr {
+    color: #000;
+}
+
+label:nth-child(even) {
+    color: #000;
+}
+
+
+
+footer p{
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
