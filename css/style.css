@@ -4,29 +4,19 @@ h1, h2 {
 }
 
 /* Cor 2 - Textos */
-p, li, label, table {
+p, li, label, th, td {
     color: black;
 }
 
 /* Cor 3 - Destaques */
-nav ul li {
+nav ul li:nth-child(2) {
     color: red;
 }
 
-table tbody tr {
-    color: #000;
+table tbody tr:nth-child(2) {
+    color: red;
 }
 
-label:nth-child(even) {
-    color: #000;
-}
-
-
-
-footer p{
-    margin: 25px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
+label:nth-of-type(even) {
+    color: red;
 }
